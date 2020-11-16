@@ -1,0 +1,47 @@
+<div id = "container">
+    <header>
+        <h1>Ejercicio</h1>
+        <p>Respondes las siguiente preguntas: </p>
+    </header>
+    <section>
+        <div id="resultado"></div>
+            <form name = "quizForm" onsubmit="return VerificarRespuestas()">
+                <h3>1. Conjuntos formado por los numeros pares menores que 10?</h3>
+                <input type="radio" name="p1" value="a">a. Q = 2,4,6,8<br/>
+                <input type="radio" name="p1" value="b">b. Q = 2,6,8,10<br/>
+                <input type="radio" name="p1" value="c">c. Q = 0,1,2,3,4<br/>
+                <input type="radio" name="p1" value="d">d. Q = 2,4,6,10<br/>
+                
+                <h3>2. Cual es vocales?</h3>
+                <input type="radio" name="p2" value="a">a. A = a,e,i,o,u<br/>
+                <input type="radio" name="p2" value="b">b. A = a,b,i,o,u<br/>
+                <input type="radio" name="p2" value="c">c. A = a,e,i,c,u<br/>
+                <input type="radio" name="p2" value="d">d. A = a,e,i,o,v<br/>
+
+                <h3>3. Conjuntos formado por los numeros impares menores que 11?</h3>
+                <input type="radio" name="p3" value="a">a. C = 1,5,7,9<br/>
+                <input type="radio" name="p3" value="b">b. C = 0,1,3,5,7,9<br/>
+                <input type="radio" name="p3" value="c">c. C = 1,3,5,7,9<br/>
+                <input type="radio" name="p3" value="d">d. C = 1,3,5,7,9,11<br/>
+
+                <img src="assets/Diapositiva9.webp" class="img-fluid" style="background-position-x: center;">
+
+                <h3>4. Cual hay transportes en tierra</h3>
+                <input type="radio" name="p4" value="a">a. P = coche, vehiculo, bus, camion, barco ,bicicleta<br/>
+                <input type="radio" name="p4" value="b">b. P = coche, vehiculo, bus, bicicleta<br/>
+                <input type="radio" name="p4" value="c">c. P = coche, vehiculo, bus, camion, bicicleta<br/>
+                <input type="radio" name="p4" value="d">d. P = avion, coche, bus, barco<br/>
+
+                <h3>5. cual hay animales en la casa?</h3>
+                <input type="radio" name="p5" value="a">a. E = perro, rato, tortuga, loro, paloma<br/>
+                <input type="radio" name="p5" value="b">b. E = perro, rato, tortuga, loro, pez<br/>
+                <input type="radio" name="p5" value="c">c. E = perro, rato, tortuga, loro, leon<br/>
+                <input type="radio" name="p5" value="d">d. E = perro, pato, caracal, gallina, toro<br/>
+
+                <input type="submit" value="Enviar">
+            </form>
+    </section>
+</div>
+<div class="button-containers">
+    <button  mat-raised-button color="warn" (click)=" toprimate()">Continuar</button>
+</div>

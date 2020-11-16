@@ -1,0 +1,35 @@
+.container {
+    position: relative;
+    widows: 50%;
+    top: 5%;
+    margin-right: 50%;
+    margin-left: 25%;
+    float: left;
+    width: calc(50% - 40px);
+    padding: 20px;
+
+ }
+.exmp-button-row {
+    width: calc(50%-10px);
+    margin: 5px;
+    margin-left: 0%;
+    
+  }
+
+.botonhome{
+    width: calc(50%-10px);
+    margin: 5px;
+    margin-left: 14%;
+    
+}
+.button-container{
+    color: rgb(0, 255, 242);
+    margin: 5px;
+    width: 40%;
+    
+}
+.button-container1{
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    width: 30%;
+}

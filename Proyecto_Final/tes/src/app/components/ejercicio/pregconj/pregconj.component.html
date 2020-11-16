@@ -1,0 +1,47 @@
+<div id = "container">
+    <header>
+        <h1>Ejercicio</h1>
+        <p>Respondes las siguiente preguntas: </p>
+    </header>
+    <section>
+        <div id="resultado"></div>
+            <form name = "quizForm" onsubmit="return VerificarRespuestas()">
+                <img src="assets/Diapositiva9.webp" class="img-fluid" style="background-position-x: center;">
+        
+                <h3>1. Cuantos animales en aire?</h3>
+                <input type="radio" name="p1" value="a">a. 3<br/>
+                <input type="radio" name="p1" value="b">b. 1<br/>
+                <input type="radio" name="p1" value="c">c. 2<br/>
+                <input type="radio" name="p1" value="d">d. 4<br/>
+
+                <h3>2. Cuantos transportes en aire?</h3>
+                <input type="radio" name="p2" value="a">a. 2<br/>
+                <input type="radio" name="p2" value="b">b. 4<br/>
+                <input type="radio" name="p2" value="c">c. 1<br/>
+                <input type="radio" name="p2" value="d">d. 3<br/>
+
+                <h3>3. Cuantos animales en mar?</h3>
+                <input type="radio" name="p3" value="a">a. 3<br/>
+                <input type="radio" name="p3" value="b">b. 1<br/>
+                <input type="radio" name="p3" value="c">c. 2<br/>
+                <input type="radio" name="p3" value="d">d. 4<br/>
+
+                <h3>4. Cuantos transportes en tierra?</h3>
+                <input type="radio" name="p4" value="a">a. 2<br/>
+                <input type="radio" name="p4" value="b">b. 4<br/>
+                <input type="radio" name="p4" value="c">c. 5<br/>
+                <input type="radio" name="p4" value="d">d. 3<br/>
+
+                <h3>5. Cuantos Animales en la casa </h3>
+                <input type="radio" name="p5" value="a">a. 2<br/>
+                <input type="radio" name="p5" value="b">b. 4<br/>
+                <input type="radio" name="p5" value="c">c. 5<br/>
+                <input type="radio" name="p5" value="d">d. 3<br/>
+
+                <input type="submit" value="Enviar">
+            </form>
+    </section>
+</div>
+<div class="button-containers">
+    <button  mat-raised-button color="warn" (click)=" toprimate()">Continuar</button>
+</div>

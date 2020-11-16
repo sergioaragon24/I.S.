@@ -1,0 +1,26 @@
+.container {
+    position: relative;
+    widows: 50%;
+    top: 5%;
+    margin-right: 50%;
+    margin-left: 25%;
+    float: left;
+    width: calc(50% - 40px);
+    padding: 20px;
+
+ }
+.elemento {
+    width: 100%;
+}
+
+.botonhome{
+    width: calc(50%-10px);
+    margin: 5px;
+    margin-left: 10%;
+    
+}
+.button-container{
+    color: rgb(255, 255, 255);
+    margin: 5px;
+    width: 40%;
+}

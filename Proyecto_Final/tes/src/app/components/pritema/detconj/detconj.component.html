@@ -1,0 +1,15 @@
+<div clase = "container">
+    <div class="movideo">
+        <iframe width="560" height="315" [src]="safeUrl" frameborder="0" allowfullscreen></iframe>
+    </div>
+
+    <section class="botoncurso">
+        <div class="exmp-button-row">
+          <button mat-raised-button color="accent" class = "button-container" (click) = "Pregdetconj()" >Ejercicio</button>
+        </div>
+    </section>
+    <div class="botonhome">
+        <button mat-raised-button color="primary" class = "button-container" (click) = "toPrimate()">Regreso</button>
+        <button mat-raised-button color="warn" class = "button-container" (click)="tologin()">Salir</button>
+      </div> 
+</div>
